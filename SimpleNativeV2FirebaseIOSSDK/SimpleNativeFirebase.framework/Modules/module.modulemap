@@ -1,0 +1,6 @@
+framework module SimpleNativeFirebase {
+  umbrella header "SimpleNativeFirebase.h"
+
+  export *
+  module * { export * }
+}
