@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "SimpleNativeV2FirebaseIOSSDK"
-  spec.version="0.3.10"
+  spec.version="0.3.12"
   spec.summary= "Simple SDK V2 for include Firebase"
   spec.description= <<-DESC
   Simple SDK V2 for include Firebase, please includ the core sdk more
