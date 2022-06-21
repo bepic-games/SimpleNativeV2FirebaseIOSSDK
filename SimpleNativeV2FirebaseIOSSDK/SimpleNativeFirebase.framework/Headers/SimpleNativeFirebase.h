@@ -10,7 +10,10 @@
 @import Firebase;
 
 @interface SimpleNativeFirebase<FIRMessagingDelegate, UNUserNotificationCenterDelegate, ThirdUploadLoggerProtocol> : NSObject
+
 +(instancetype)sharedInstance;
+
+-(void) incRevenue:(double) revenue;
 @end
 
 //! Project version number for SimpleNativeFirebase.
