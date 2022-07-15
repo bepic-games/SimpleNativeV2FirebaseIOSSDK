@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name = "SimpleNativeV2FirebaseIOSSDK"
-  spec.version="0.3.29"
+  spec.version="0.3.30"
   spec.summary= "Simple SDK V2 for include Firebase"
   spec.description= <<-DESC
   Simple SDK V2 for include Firebase, please includ the core sdk more
@@ -16,4 +16,5 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   spec.dependency 'Firebase/Analytics','8.8.0'
   spec.dependency 'Firebase/Messaging','8.8.0'
+  spec.depencency 'Firebase/RemoteConfig','8.8.0'
 end
