@@ -16,5 +16,5 @@ Pod::Spec.new do |spec|
   spec.pod_target_xcconfig = { 'VALID_ARCHS' => 'arm64' }
   spec.dependency 'Firebase/Analytics','8.8.0'
   spec.dependency 'Firebase/Messaging','8.8.0'
-  spec.depencency 'Firebase/RemoteConfig','8.8.0'
+  spec.dependency 'Firebase/RemoteConfig','8.8.0'
 end
